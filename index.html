@@ -4,6 +4,7 @@
   <!-- 元数据 -->
   <meta charset="utf-8">
   <link rel="icon" href="/images/houtas.webp">
+  
   <title>RainHoutas</title>
   <meta name="author" content="houtas" />
   <meta http-equiv="Cache-Control" content="no-transform" />
@@ -15,16 +16,17 @@
   
     <meta name="keywords" content="" />
   
-  <meta property="og:type" content="website">
+  <meta name="description" content="𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,   ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉.">
+<meta property="og:type" content="website">
 <meta property="og:title" content="RainHoutas">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="RainHoutas">
+<meta property="og:description" content="𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,   ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/houtas.webp">
 <meta property="article:author" content="houtas">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/houtas.webp">
-<meta name="twitter:site" content="@null">
   
   <!-- 站点验证相关 -->
   
@@ -33,27 +35,28 @@
     
   
   <!-- 样式表文件 -->
-  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" media="all"></script>
   
-    <link rel="stylesheet" id="highlight-css" href="/css/highlight/light.min.css" type="text/css" media="all">
-  
-  
-  <link rel="stylesheet" id="fontawe-css" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all">
-  <link rel="stylesheet" id="nprogress-css" href="https://unpkg.com/nprogress@0.2.0/nprogress.css" type="text/css" media="all">
+    <link rel="stylesheet" id="darkmode-css" href="/css/kr-color-dark.min.css" media="(prefers-color-scheme: dark)"></script>
+    <script src="/js/kr-dark.min.js"></script>
   
   
-    <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
+    <link rel="stylesheet" id="highlight-css" href="/css/highlight/night-eighties.min.css" media="all"></script>
   
   
-    <link rel="stylesheet" href="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" id="fontawe-css" href="/vendors/font-awesome@4.7.0/css/font-awesome.min.css" media="all"></script>
+  <link rel="stylesheet" id="nprogress-css" href="/vendors/nprogress@0.2.0/nprogress.css" media="all"></script>
   
   
-    <link rel="stylesheet" id="darkmode-css" href="/css/kr-dark.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/vendors/aplayer@1.10.1/dist/APlayer.min.css"></script>
+  
+  
+    <link rel="stylesheet" href="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"></script>
   
   <!-- 不得不预先加载的一些JS文件 -->
-  <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="/vendors/jquery@3.6.0/dist/jquery.min.js"></script>
   
-    <script src="https://unpkg.com/qrcode_js@1.0.0/qrcode.min.js"></script>
+    <script src="/vendors/qrcode_js@1.0.0/qrcode.min.js"></script>
   
   
   <style>
@@ -85,46 +88,49 @@
                             <ul id="kratos-primary-menu" class="sf-menu">
                                 
                                     
-                                        <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
                                     
-                                
+                                        
+                                            <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
+                                        
                                     
-                                        <li><a href="/archives/"><i class="fa fa-file"></i>记录</a></li>
+                                        
+                                            <li><a href="/archives/"><i class="fa fa-file"></i>记录</a></li>
+                                        
                                     
-                                
+                                        
+                                            <li><a href="/friends/"><i class="fa fa-heartbeat"></i>好果汁</a></li>
+                                        
                                     
-                                        <li><a href="/friends/"><i class="fa fa-heartbeat"></i>好果汁</a></li>
+                                        
+                                            <li><a href="/myself/"><i class="fa fa-paper-plane"></i>自我介绍</a></li>
+                                        
                                     
-                                
+                                        
+                                            <li><a href="/mybox/"><i class="fa fa-rss"></i>资源库</a></li>
+                                        
                                     
-                                        <li><a href="/myself/"><i class="fa fa-paper-plane"></i>自我介绍</a></li>
-                                    
-                                
-                                    
-                                        <li><a href="/mybox/"><i class="fa fa-rss"></i>资源库</a></li>
-                                    
-                                
-                                    
-                                        <li>
-                                            <a><i class="fa fa-link"></i>重要链接</a>
-                                            <ul class="sub-menu">
-                                                
+                                        
+                                            <li>
+                                                <a><i class="fa fa-link"></i>重要链接</a>
+                                                <ul class="sub-menu">
                                                     
-                                                
+                                                        
                                                     
-                                                        <li><a target="_blank" rel="noopener" href="https://space.bilibili.com/34542802/fans/follow">俺的b站</a></li>
+                                                        
+                                                            <li><a target="_blank" rel="noopener" href="https://space.bilibili.com/34542802/fans/follow">俺的b站</a></li>
+                                                        
                                                     
-                                                
+                                                        
+                                                            <li><a target="_blank" rel="noopener" href="https://github.com/RainHoutas/RainHoutas.github.io">项目链接</a></li>
+                                                        
                                                     
-                                                        <li><a target="_blank" rel="noopener" href="https://github.com/RainHoutas/RainHoutas.github.io">项目链接</a></li>
+                                                        
+                                                            <li><a target="_blank" rel="noopener" href="http://rainhoutas.fun">《知识库》</a></li>
+                                                        
                                                     
-                                                
-                                                    
-                                                        <li><a target="_blank" rel="noopener" href="http://rainhoutas.fun">《知识库》</a></li>
-                                                    
-                                                
-                                            </ul>
-                                        </li>
+                                                </ul>
+                                            </li>
+                                        
                                     
                                 
                             </ul>
@@ -166,26 +172,30 @@
 
         
 
-            
+            <!-- Breadcrumb for tag & category page -->
+
+
+
+
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/06/24/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%954-%E9%AD%85%E8%93%9D2%EF%BC%88%E5%8F%B2%E8%AF%97%E5%A4%A7%E6%B4%BB%EF%BC%89/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%95/">搞机记录</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/06/24/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%954-%E9%AD%85%E8%93%9D2%EF%BC%88%E5%8F%B2%E8%AF%97%E5%A4%A7%E6%B4%BB%EF%BC%89/">搞机记录4：魅蓝2（史诗大活）</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/06/24/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%954-%E9%AD%85%E8%93%9D2%EF%BC%88%E5%8F%B2%E8%AF%97%E5%A4%A7%E6%B4%BB%EF%BC%89/" itemprop="mainEntityOfPage"><span itemprop="name headline">搞机记录4：魅蓝2（史诗大活）</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 说在前面的话这期算是托更了两个半月憋出来的屎诗巨作，由于时间仓促没法子测肉眼看不到的东西，所以测得并不专业，也并不主观，开心就好，不喜勿喷
 本文章中所有的工具，rec，刷机包均来自Q群1064802293 魅蓝2ROM刷机交流群。特别感谢Time大佬提供的包和汉化的rec。
@@ -195,10 +205,9 @@
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-06-24
-                        </a>
+                        <time datetime="2022-06-24T08:02:02.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-06-24</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -208,19 +217,9 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/06/24/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%954-%E9%AD%85%E8%93%9D2%EF%BC%88%E5%8F%B2%E8%AF%97%E5%A4%A7%E6%B4%BB%EF%BC%89/" class="leancloud_visitors" data-flag-title="搞机记录4：魅蓝2（史诗大活）">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/06/24/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%954-%E9%AD%85%E8%93%9D2%EF%BC%88%E5%8F%B2%E8%AF%97%E5%A4%A7%E6%B4%BB%EF%BC%89/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -234,23 +233,23 @@
 
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/06/21/%E5%96%9C%E6%8A%A5-%E6%88%91%E6%BB%B4%E7%9F%A5%E8%AF%86%E5%BA%93%E5%AE%8C%E6%88%90%E4%BA%86/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E8%81%8A%E5%A4%A9%E6%9D%82%E8%B0%88/">聊天杂谈</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/06/21/%E5%96%9C%E6%8A%A5-%E6%88%91%E6%BB%B4%E7%9F%A5%E8%AF%86%E5%BA%93%E5%AE%8C%E6%88%90%E4%BA%86/">喜报:我滴知识库完成了</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/06/21/%E5%96%9C%E6%8A%A5-%E6%88%91%E6%BB%B4%E7%9F%A5%E8%AF%86%E5%BA%93%E5%AE%8C%E6%88%90%E4%BA%86/" itemprop="mainEntityOfPage"><span itemprop="name headline">喜报:我滴知识库完成了</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 距离上次更新博客已经过去将近两个半月里
                             
@@ -259,10 +258,9 @@
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-06-21
-                        </a>
+                        <time datetime="2022-06-21T11:26:41.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-06-21</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -272,19 +270,9 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/06/21/%E5%96%9C%E6%8A%A5-%E6%88%91%E6%BB%B4%E7%9F%A5%E8%AF%86%E5%BA%93%E5%AE%8C%E6%88%90%E4%BA%86/" class="leancloud_visitors" data-flag-title="喜报:我滴知识库完成了">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/06/21/%E5%96%9C%E6%8A%A5-%E6%88%91%E6%BB%B4%E7%9F%A5%E8%AF%86%E5%BA%93%E5%AE%8C%E6%88%90%E4%BA%86/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -298,23 +286,23 @@
 
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/04/03/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%953%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A1/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%95/">搞机记录</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/04/03/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%953%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A1/">搞机记录3：红米note5②</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/04/03/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%953%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A1/" itemprop="mainEntityOfPage"><span itemprop="name headline">搞机记录3：红米note5②</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 開闛襬嘿↘嘿↗我又回来了
 按说说的约定，我又回来更博客了
@@ -328,10 +316,9 @@
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-04-03
-                        </a>
+                        <time datetime="2022-04-03T11:30:34.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-04-03</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -341,19 +328,9 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/04/03/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%953%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A1/" class="leancloud_visitors" data-flag-title="搞机记录3：红米note5②">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/04/03/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%953%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A1/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -367,23 +344,23 @@
 
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/03/12/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%952%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A0/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%95/">搞机记录</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/03/12/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%952%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A0/">搞机记录2：红米note5①</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/03/12/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%952%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A0/" itemprop="mainEntityOfPage"><span itemprop="name headline">搞机记录2：红米note5①</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 开场摆开门见山的解释一下为啥是①
 因为要换系统了
@@ -395,10 +372,9 @@
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-03-12
-                        </a>
+                        <time datetime="2022-03-12T02:40:47.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-03-12</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -408,19 +384,9 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/03/12/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%952%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A0/" class="leancloud_visitors" data-flag-title="搞机记录2：红米note5①">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/03/12/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%952%E2%80%94%E7%BA%A2%E7%B1%B3note5%E2%91%A0/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -434,23 +400,23 @@
 
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/02/06/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%951-%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF1/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%95/">搞机记录</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/02/06/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%951-%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF1/">搞机记录1：小米平板1</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/02/06/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%951-%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF1/" itemprop="mainEntityOfPage"><span itemprop="name headline">搞机记录1：小米平板1</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 开场白？！这是一个奇妙的开场白，对我也不知道在干什么
                             
@@ -459,10 +425,9 @@
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-02-06
-                        </a>
+                        <time datetime="2022-02-06T13:10:46.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-02-06</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -472,19 +437,9 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/02/06/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%951-%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF1/" class="leancloud_visitors" data-flag-title="搞机记录1：小米平板1">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/02/06/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%951-%E5%B0%8F%E7%B1%B3%E5%B9%B3%E6%9D%BF1/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -498,23 +453,23 @@
 
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/01/27/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%88%90%E5%8A%9F%E7%9A%84%E5%88%B7%E6%9C%BA%E7%BB%8F%E5%8E%86/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">技术分享</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/01/27/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%88%90%E5%8A%9F%E7%9A%84%E5%88%B7%E6%9C%BA%E7%BB%8F%E5%8E%86/">记录一次成功的刷机经历(附上刷机的一般思路教程)</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/01/27/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%88%90%E5%8A%9F%E7%9A%84%E5%88%B7%E6%9C%BA%E7%BB%8F%E5%8E%86/" itemprop="mainEntityOfPage"><span itemprop="name headline">记录一次成功的刷机经历(附上刷机的一般思路教程)</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 起因（不想看废话的可以直接跳过）once upon a time~~~~
 咳咳，不卖关子了
@@ -530,10 +485,9 @@
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-01-27
-                        </a>
+                        <time datetime="2022-01-27T14:34:19.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-01-27</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -543,19 +497,9 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/01/27/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%88%90%E5%8A%9F%E7%9A%84%E5%88%B7%E6%9C%BA%E7%BB%8F%E5%8E%86/" class="leancloud_visitors" data-flag-title="记录一次成功的刷机经历(附上刷机的一般思路教程)">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/01/27/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%88%90%E5%8A%9F%E7%9A%84%E5%88%B7%E6%9C%BA%E7%BB%8F%E5%8E%86/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -569,23 +513,23 @@
 
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/01/27/%E5%81%87%E6%9C%9F%C2%B7%E4%BD%9C%E4%B8%9A%C2%B7%E4%BC%9A%E8%80%83%C2%B7%E6%91%86%E7%83%82/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E8%81%8A%E5%A4%A9%E6%9D%82%E8%B0%88/">聊天杂谈</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/01/27/%E5%81%87%E6%9C%9F%C2%B7%E4%BD%9C%E4%B8%9A%C2%B7%E4%BC%9A%E8%80%83%C2%B7%E6%91%86%E7%83%82/">假期·作业·会考·摆烂</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/01/27/%E5%81%87%E6%9C%9F%C2%B7%E4%BD%9C%E4%B8%9A%C2%B7%E4%BC%9A%E8%80%83%C2%B7%E6%91%86%E7%83%82/" itemprop="mainEntityOfPage"><span itemprop="name headline">假期·作业·会考·摆烂</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 神TM13号会考，15号开学真的无语了，放个假都不让人好好过，yysy心态崩了
 今天刚刚收到的司马通知↓
@@ -606,10 +550,9 @@
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-01-27
-                        </a>
+                        <time datetime="2022-01-27T14:06:03.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-01-27</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -619,19 +562,9 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/01/27/%E5%81%87%E6%9C%9F%C2%B7%E4%BD%9C%E4%B8%9A%C2%B7%E4%BC%9A%E8%80%83%C2%B7%E6%91%86%E7%83%82/" class="leancloud_visitors" data-flag-title="假期·作业·会考·摆烂">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/01/27/%E5%81%87%E6%9C%9F%C2%B7%E4%BD%9C%E4%B8%9A%C2%B7%E4%BC%9A%E8%80%83%C2%B7%E6%91%86%E7%83%82/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -645,23 +578,23 @@
 
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/01/18/%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA%E5%95%8A%E5%90%A7%E5%95%8A%E5%90%A7/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95/">功能测试</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/01/18/%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA%E5%95%8A%E5%90%A7%E5%95%8A%E5%90%A7/">测试评论啊吧啊吧</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/01/18/%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA%E5%95%8A%E5%90%A7%E5%95%8A%E5%90%A7/" itemprop="mainEntityOfPage"><span itemprop="name headline">测试评论啊吧啊吧</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 
     注意啦！！！！
@@ -691,10 +624,9 @@
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-01-18
-                        </a>
+                        <time datetime="2022-01-18T11:54:05.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-01-18</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -704,19 +636,9 @@
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/01/18/%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA%E5%95%8A%E5%90%A7%E5%95%8A%E5%90%A7/" class="leancloud_visitors" data-flag-title="测试评论啊吧啊吧">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/01/18/%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA%E5%95%8A%E5%90%A7%E5%95%8A%E5%90%A7/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -730,23 +652,23 @@
 
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/01/18/%E8%AF%B4%E7%82%B9%E5%BF%83%E9%87%8C%E8%AF%9D/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E8%81%8A%E5%A4%A9%E6%9D%82%E8%B0%88/">聊天杂谈</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/01/18/%E8%AF%B4%E7%82%B9%E5%BF%83%E9%87%8C%E8%AF%9D/">说点心里话</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/01/18/%E8%AF%B4%E7%82%B9%E5%BF%83%E9%87%8C%E8%AF%9D/" itemprop="mainEntityOfPage"><span itemprop="name headline">说点心里话</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 现在已经凌晨0点了，但我却还没有睡
 其实平时也不会这么早就睡的
@@ -759,10 +681,9 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-01-18
-                        </a>
+                        <time datetime="2022-01-17T16:16:20.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-01-18</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -772,19 +693,9 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/01/18/%E8%AF%B4%E7%82%B9%E5%BF%83%E9%87%8C%E8%AF%9D/" class="leancloud_visitors" data-flag-title="说点心里话">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/01/18/%E8%AF%B4%E7%82%B9%E5%BF%83%E9%87%8C%E8%AF%9D/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -798,23 +709,23 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
 
     
     
-        <article class="kratos-hentry clearfix">
+        <article class="kratos-hentry clearfix" itemscope itemtype="https://schema.org/Article">
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
                     <a href="/2022/01/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
                         
-                            <img class="kratos-entry-thumb-new-img">
+                            <img class="kratos-entry-thumb-new-img" alt="">
                         
                     </a>
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
                             <a class="label-link" href="/categories/%E8%81%8A%E5%A4%A9%E6%9D%82%E8%B0%88/">聊天杂谈</a>
-                        <h2 class="kratos-entry-title-new"><a href="/2022/01/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">我的第一篇文章</a>
+                        <h2 class="kratos-entry-title-new"><a href="/2022/01/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" itemprop="mainEntityOfPage"><span itemprop="name headline">我的第一篇文章</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
-                        <p>
+                        <p itemProp="description">
                             
                                 这是一个一级标题hi！大家好
 这里是houtas
@@ -829,10 +740,9 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <a>
-                            <i class="fa fa-calendar"></i>
-                            2022-01-16
-                        </a>
+                        <time datetime="2022-01-16T13:43:02.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2022-01-16</a>
+                        </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
@@ -842,19 +752,9 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
                         
                             <!-- 当前仅支持valine/waline自带的统计功能 -->
                             
-                                <a id="/2022/01/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="leancloud_visitors" data-flag-title="我的第一篇文章">
-                                    <i class="fa fa-eye"></i>
-                                    <span class="leancloud-visitors-count"> </span> 次阅读
-                                </a>
-                            
                         
                         
                             <!-- 当前仅支持waline自带的统计功能 -->
-                            
-                                <a>
-                                    <i class="fa fa-commenting-o"></i>
-                                    <span data-xid="/2022/01/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="waline-comment-count"> </span> 条评论
-                                </a>
                             
                         
                     </span>
@@ -872,26 +772,6 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
 
     <div class="hidden">
         <!-- 加载文章阅读对应的统计功能，评论自带的那种 -->
-        
-            <div id="w-comments" class="post-comments"></div>
-<script>
-    var load_comm = () => {
-        const init = () => {
-            new Waline(Object.assign({
-                el: '#w-comments',
-                path: '/index.html'
-            }, JSON.parse('{"serverURL":"https://realhoutaspl-rainhoutas.vercel.app","visitor":true}')));
-        }
-        if (typeof Waline === 'undefined') {
-            const src = 'https://unpkg.com/@waline/client/dist/Waline.min.js';
-            $.getScript(src, init);
-        } else {
-            init();
-        }
-    };
-</script>
-<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://waline.js.org/">comments powered by Waline.</a></noscript>
-
         
     </div>
 
@@ -916,18 +796,37 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
     <div class="photo-background"></div>
     <div class="photo-wrapper clearfix">
         <div class="photo-wrapper-tip text-center">
-            <img class="about-photo" src="/images/houtas.webp" />
-    <div class="textwidget">
-        <p class="text-center">
-         𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,
-         <br> 
-         ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉.  𝜑
-        </p>
-</div>
+            <img class="about-photo" src="/images/houtas.webp" loading="lazy" decoding="auto" />
         </div>
     </div>
     <div class="textwidget">
-        <p class="text-center"></p>
+        <p class="text-center"> 𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,  <br> ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉. </p>
+    </div>
+    <div class="site-meta">
+        <a class="meta-item" href="/archives/">
+            <span class="title">
+                文章
+            </span>
+            <span class="count">
+                10
+            </span>
+        </a>
+        <a class="meta-item" href="/categories/">
+            <span class="title">
+                分类
+            </span>
+            <span class="count">
+                4
+            </span>
+        </a>
+        <a class="meta-item" href="/tags/">
+            <span class="title">
+                标签
+            </span>
+            <span class="count">
+                3
+            </span>
+        </a>
     </div>
 </aside>
             
@@ -1068,8 +967,8 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
 </div>
 </div>
 
-        <script defer src="https://unpkg.com/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
-<script defer src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>
+        <script defer src="/vendors/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
+<script defer src="/vendors/nprogress@0.2.0/nprogress.js"></script>
 <script>
     if (!window.kr) {
         window.kr = {};
@@ -1080,7 +979,7 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
 
     <div>
         <canvas id="snow"></canvas>
-        <script async type="text/javascript" src="/js/snow.min.js"></script>
+        <script async src="/js/snow.min.js"></script>
     </div>
 
 
@@ -1088,13 +987,13 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
 
 
 
-    <script defer src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script defer src="/vendors/aplayer@1.10.1/dist/APlayer.min.js"></script>
     
-    <script defer src="https://unpkg.com/meting@2/dist/Meting.min.js"></script>
+    <script defer src="/vendors/meting@2.0.1/dist/Meting.min.js"></script>
     <meting-js
         server="netease"
         type="playlist"
-        id="7241416688"
+        id="7425470183"
         order="random"
         fixed="true"
     >
@@ -1102,14 +1001,11 @@ CDN: false # 表示使用 CDN 加载图片     random_amount: 27 # ...
 
 
 
-    <script defer src="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script defer src="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-<script defer src="https://unpkg.com/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script defer src="/vendors/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script defer src="/js/kratosr.min.js"></script>
 <script defer src="/js/pjax.min.js"></script>
-
-
-    <script defer src="/js/kr-dark.min.js"></script>
 
 
 

@@ -4,7 +4,8 @@
   <!-- 元数据 -->
   <meta charset="utf-8">
   <link rel="icon" href="/images/houtas.webp">
-  <title>RainHoutas</title>
+  
+  <title>搜索 | RainHoutas</title>
   <meta name="author" content="houtas" />
   <meta http-equiv="Cache-Control" content="no-transform" />
   <meta http-equiv="Cache-Control" content="no-siteapp" />
@@ -15,16 +16,17 @@
   
     <meta name="keywords" content="" />
   
-  <meta property="og:type" content="website">
-<meta property="og:title" content="RainHoutas">
+  <meta name="description" content="𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,   ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="搜索">
 <meta property="og:url" content="http://example.com/search/index.html">
 <meta property="og:site_name" content="RainHoutas">
+<meta property="og:description" content="𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,   ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉.">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/houtas.webp">
 <meta property="article:author" content="houtas">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/houtas.webp">
-<meta name="twitter:site" content="@null">
   
   <!-- 站点验证相关 -->
   
@@ -33,27 +35,28 @@
     
   
   <!-- 样式表文件 -->
-  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" media="all"></script>
   
-    <link rel="stylesheet" id="highlight-css" href="/css/highlight/light.min.css" type="text/css" media="all">
-  
-  
-  <link rel="stylesheet" id="fontawe-css" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all">
-  <link rel="stylesheet" id="nprogress-css" href="https://unpkg.com/nprogress@0.2.0/nprogress.css" type="text/css" media="all">
+    <link rel="stylesheet" id="darkmode-css" href="/css/kr-color-dark.min.css" media="(prefers-color-scheme: dark)"></script>
+    <script src="/js/kr-dark.min.js"></script>
   
   
-    <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
+    <link rel="stylesheet" id="highlight-css" href="/css/highlight/night-eighties.min.css" media="all"></script>
   
   
-    <link rel="stylesheet" href="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" id="fontawe-css" href="/vendors/font-awesome@4.7.0/css/font-awesome.min.css" media="all"></script>
+  <link rel="stylesheet" id="nprogress-css" href="/vendors/nprogress@0.2.0/nprogress.css" media="all"></script>
   
   
-    <link rel="stylesheet" id="darkmode-css" href="/css/kr-dark.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/vendors/aplayer@1.10.1/dist/APlayer.min.css"></script>
+  
+  
+    <link rel="stylesheet" href="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"></script>
   
   <!-- 不得不预先加载的一些JS文件 -->
-  <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="/vendors/jquery@3.6.0/dist/jquery.min.js"></script>
   
-    <script src="https://unpkg.com/qrcode_js@1.0.0/qrcode.min.js"></script>
+    <script src="/vendors/qrcode_js@1.0.0/qrcode.min.js"></script>
   
   
   <style>
@@ -85,46 +88,49 @@
                             <ul id="kratos-primary-menu" class="sf-menu">
                                 
                                     
-                                        <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
                                     
-                                
+                                        
+                                            <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
+                                        
                                     
-                                        <li><a href="/archives/"><i class="fa fa-file"></i>记录</a></li>
+                                        
+                                            <li><a href="/archives/"><i class="fa fa-file"></i>记录</a></li>
+                                        
                                     
-                                
+                                        
+                                            <li><a href="/friends/"><i class="fa fa-heartbeat"></i>好果汁</a></li>
+                                        
                                     
-                                        <li><a href="/friends/"><i class="fa fa-heartbeat"></i>好果汁</a></li>
+                                        
+                                            <li><a href="/myself/"><i class="fa fa-paper-plane"></i>自我介绍</a></li>
+                                        
                                     
-                                
+                                        
+                                            <li><a href="/mybox/"><i class="fa fa-rss"></i>资源库</a></li>
+                                        
                                     
-                                        <li><a href="/myself/"><i class="fa fa-paper-plane"></i>自我介绍</a></li>
-                                    
-                                
-                                    
-                                        <li><a href="/mybox/"><i class="fa fa-rss"></i>资源库</a></li>
-                                    
-                                
-                                    
-                                        <li>
-                                            <a><i class="fa fa-link"></i>重要链接</a>
-                                            <ul class="sub-menu">
-                                                
+                                        
+                                            <li>
+                                                <a><i class="fa fa-link"></i>重要链接</a>
+                                                <ul class="sub-menu">
                                                     
-                                                
+                                                        
                                                     
-                                                        <li><a target="_blank" rel="noopener" href="https://space.bilibili.com/34542802/fans/follow">俺的b站</a></li>
+                                                        
+                                                            <li><a target="_blank" rel="noopener" href="https://space.bilibili.com/34542802/fans/follow">俺的b站</a></li>
+                                                        
                                                     
-                                                
+                                                        
+                                                            <li><a target="_blank" rel="noopener" href="https://github.com/RainHoutas/RainHoutas.github.io">项目链接</a></li>
+                                                        
                                                     
-                                                        <li><a target="_blank" rel="noopener" href="https://github.com/RainHoutas/RainHoutas.github.io">项目链接</a></li>
+                                                        
+                                                            <li><a target="_blank" rel="noopener" href="http://rainhoutas.fun">《知识库》</a></li>
+                                                        
                                                     
-                                                
-                                                    
-                                                        <li><a target="_blank" rel="noopener" href="http://rainhoutas.fun">《知识库》</a></li>
-                                                    
-                                                
-                                            </ul>
-                                        </li>
+                                                </ul>
+                                            </li>
+                                        
                                     
                                 
                             </ul>
@@ -183,10 +189,10 @@
 <div id="result-posts">
     <div class="kratos-hentry kratos-post-inner clearfix">
         <div class="kratos-post-content">
-            <p>搜索多个关键词时请用空格分割，例如「说说 技术 测试」这样；</p>
+            <p>搜索多个关键词时请用空格分割，例如「说说 测试 技术」这样；</p>
             <p>您也可以使用这些标签碰碰运气哦~</p>
             <p class="search-demo-tags">
-                <a href="/tags/%E8%AF%B4%E8%AF%B4/" style="font-size: 21px; color: #8f96a3">说说</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 24px; color: #6c7588">技术</a> <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 18px; color: #b2b7be">测试</a>
+                <a href="/tags/%E8%AF%B4%E8%AF%B4/" style="font-size: 21px; color: #8f96a3">说说</a> <a href="/tags/%E6%B5%8B%E8%AF%95/" style="font-size: 18px; color: #b2b7be">测试</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 24px; color: #6c7588">技术</a>
             </p>
         </div>
     </div>
@@ -214,18 +220,37 @@
     <div class="photo-background"></div>
     <div class="photo-wrapper clearfix">
         <div class="photo-wrapper-tip text-center">
-            <img class="about-photo" src="/images/houtas.webp" />
-    <div class="textwidget">
-        <p class="text-center">
-         𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,
-         <br> 
-         ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉.  𝜑
-        </p>
-</div>
+            <img class="about-photo" src="/images/houtas.webp" loading="lazy" decoding="auto" />
         </div>
     </div>
     <div class="textwidget">
-        <p class="text-center"></p>
+        <p class="text-center"> 𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,  <br> ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉. </p>
+    </div>
+    <div class="site-meta">
+        <a class="meta-item" href="/archives/">
+            <span class="title">
+                文章
+            </span>
+            <span class="count">
+                10
+            </span>
+        </a>
+        <a class="meta-item" href="/categories/">
+            <span class="title">
+                分类
+            </span>
+            <span class="count">
+                4
+            </span>
+        </a>
+        <a class="meta-item" href="/tags/">
+            <span class="title">
+                标签
+            </span>
+            <span class="count">
+                3
+            </span>
+        </a>
     </div>
 </aside>
             
@@ -366,8 +391,8 @@
 </div>
 </div>
 
-        <script defer src="https://unpkg.com/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
-<script defer src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>
+        <script defer src="/vendors/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
+<script defer src="/vendors/nprogress@0.2.0/nprogress.js"></script>
 <script>
     if (!window.kr) {
         window.kr = {};
@@ -378,7 +403,7 @@
 
     <div>
         <canvas id="snow"></canvas>
-        <script async type="text/javascript" src="/js/snow.min.js"></script>
+        <script async src="/js/snow.min.js"></script>
     </div>
 
 
@@ -386,13 +411,13 @@
 
 
 
-    <script defer src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script defer src="/vendors/aplayer@1.10.1/dist/APlayer.min.js"></script>
     
-    <script defer src="https://unpkg.com/meting@2/dist/Meting.min.js"></script>
+    <script defer src="/vendors/meting@2.0.1/dist/Meting.min.js"></script>
     <meting-js
         server="netease"
         type="playlist"
-        id="7241416688"
+        id="7425470183"
         order="random"
         fixed="true"
     >
@@ -400,14 +425,11 @@
 
 
 
-    <script defer src="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script defer src="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-<script defer src="https://unpkg.com/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script defer src="/vendors/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script defer src="/js/kratosr.min.js"></script>
 <script defer src="/js/pjax.min.js"></script>
-
-
-    <script defer src="/js/kr-dark.min.js"></script>
 
 
 

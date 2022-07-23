@@ -4,6 +4,7 @@
   <!-- 元数据 -->
   <meta charset="utf-8">
   <link rel="icon" href="/images/houtas.webp">
+  
   <title>搞机记录4：魅蓝2（史诗大活） | RainHoutas</title>
   <meta name="author" content="houtas" />
   <meta http-equiv="Cache-Control" content="no-transform" />
@@ -29,7 +30,6 @@
 <meta property="article:tag" content="技术">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/houtas.webp">
-<meta name="twitter:site" content="@null">
   
   <!-- 站点验证相关 -->
   
@@ -38,27 +38,28 @@
     
   
   <!-- 样式表文件 -->
-  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="kratos-css" href="/css/kratosr.min.css" media="all"></script>
   
-    <link rel="stylesheet" id="highlight-css" href="/css/highlight/light.min.css" type="text/css" media="all">
-  
-  
-  <link rel="stylesheet" id="fontawe-css" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" type="text/css" media="all">
-  <link rel="stylesheet" id="nprogress-css" href="https://unpkg.com/nprogress@0.2.0/nprogress.css" type="text/css" media="all">
+    <link rel="stylesheet" id="darkmode-css" href="/css/kr-color-dark.min.css" media="(prefers-color-scheme: dark)"></script>
+    <script src="/js/kr-dark.min.js"></script>
   
   
-    <link rel="stylesheet" href="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.css">
+    <link rel="stylesheet" id="highlight-css" href="/css/highlight/night-eighties.min.css" media="all"></script>
   
   
-    <link rel="stylesheet" href="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" id="fontawe-css" href="/vendors/font-awesome@4.7.0/css/font-awesome.min.css" media="all"></script>
+  <link rel="stylesheet" id="nprogress-css" href="/vendors/nprogress@0.2.0/nprogress.css" media="all"></script>
   
   
-    <link rel="stylesheet" id="darkmode-css" href="/css/kr-dark.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/vendors/aplayer@1.10.1/dist/APlayer.min.css"></script>
+  
+  
+    <link rel="stylesheet" href="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"></script>
   
   <!-- 不得不预先加载的一些JS文件 -->
-  <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="/vendors/jquery@3.6.0/dist/jquery.min.js"></script>
   
-    <script src="https://unpkg.com/qrcode_js@1.0.0/qrcode.min.js"></script>
+    <script src="/vendors/qrcode_js@1.0.0/qrcode.min.js"></script>
   
   
   <style>
@@ -90,46 +91,49 @@
                             <ul id="kratos-primary-menu" class="sf-menu">
                                 
                                     
-                                        <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
                                     
-                                
+                                        
+                                            <li><a href="/"><i class="fa fa-home"></i>首页</a></li>
+                                        
                                     
-                                        <li><a href="/archives/"><i class="fa fa-file"></i>记录</a></li>
+                                        
+                                            <li><a href="/archives/"><i class="fa fa-file"></i>记录</a></li>
+                                        
                                     
-                                
+                                        
+                                            <li><a href="/friends/"><i class="fa fa-heartbeat"></i>好果汁</a></li>
+                                        
                                     
-                                        <li><a href="/friends/"><i class="fa fa-heartbeat"></i>好果汁</a></li>
+                                        
+                                            <li><a href="/myself/"><i class="fa fa-paper-plane"></i>自我介绍</a></li>
+                                        
                                     
-                                
+                                        
+                                            <li><a href="/mybox/"><i class="fa fa-rss"></i>资源库</a></li>
+                                        
                                     
-                                        <li><a href="/myself/"><i class="fa fa-paper-plane"></i>自我介绍</a></li>
-                                    
-                                
-                                    
-                                        <li><a href="/mybox/"><i class="fa fa-rss"></i>资源库</a></li>
-                                    
-                                
-                                    
-                                        <li>
-                                            <a><i class="fa fa-link"></i>重要链接</a>
-                                            <ul class="sub-menu">
-                                                
+                                        
+                                            <li>
+                                                <a><i class="fa fa-link"></i>重要链接</a>
+                                                <ul class="sub-menu">
                                                     
-                                                
+                                                        
                                                     
-                                                        <li><a target="_blank" rel="noopener" href="https://space.bilibili.com/34542802/fans/follow">俺的b站</a></li>
+                                                        
+                                                            <li><a target="_blank" rel="noopener" href="https://space.bilibili.com/34542802/fans/follow">俺的b站</a></li>
+                                                        
                                                     
-                                                
+                                                        
+                                                            <li><a target="_blank" rel="noopener" href="https://github.com/RainHoutas/RainHoutas.github.io">项目链接</a></li>
+                                                        
                                                     
-                                                        <li><a target="_blank" rel="noopener" href="https://github.com/RainHoutas/RainHoutas.github.io">项目链接</a></li>
+                                                        
+                                                            <li><a target="_blank" rel="noopener" href="http://rainhoutas.fun">《知识库》</a></li>
+                                                        
                                                     
-                                                
-                                                    
-                                                        <li><a target="_blank" rel="noopener" href="http://rainhoutas.fun">《知识库》</a></li>
-                                                    
-                                                
-                                            </ul>
-                                        </li>
+                                                </ul>
+                                            </li>
+                                        
                                     
                                 
                             </ul>
@@ -171,16 +175,20 @@
 
         
 
-            <article>
+            <article itemscope itemtype="https://schema.org/Article">
+    
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/24/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%954-%E9%AD%85%E8%93%9D2%EF%BC%88%E5%8F%B2%E8%AF%97%E5%A4%A7%E6%B4%BB%EF%BC%89/">
     <div class="kratos-hentry kratos-post-inner clearfix">
         <header class="kratos-entry-header">
             
-                <h1 class="kratos-entry-title text-center">搞机记录4：魅蓝2（史诗大活）</h1>
+                <h1 class="kratos-entry-title text-center" itemprop="name headline">搞机记录4：魅蓝2（史诗大活）</h1>
             
             
             <ul class="kratos-post-meta text-center">
-                <li><i class="fa fa-calendar"></i> 2022-06-24</li>
-                <li><i class="fa fa-user"></i> 作者 houtas</li>
+                <li><time datetime="2022-06-24T08:02:02.000Z" itemprop="datePublished"><i class="fa fa-calendar"></i> 2022-06-24</time></li>
+                <li itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <i class="fa fa-user"></i> 作者 <span itemprop="name">houtas</span>
+                </li>
                 <li>
                     <i class="fa fa-edit"></i> 
                     
@@ -190,30 +198,22 @@
                     字
                 </li>
                 
-                    <li id="/2022/06/24/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%954-%E9%AD%85%E8%93%9D2%EF%BC%88%E5%8F%B2%E8%AF%97%E5%A4%A7%E6%B4%BB%EF%BC%89/" class="leancloud_visitors" data-flag-title="搞机记录4：魅蓝2（史诗大活）">
-                        <i class="fa fa-eye"></i>
-                        <span class="leancloud-visitors-count"> </span> 次阅读
-                    </li>
-                    
-                        <li>
-                            <i class="fa fa-commenting-o"></i>
-                            <span data-xid="/2022/06/24/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%954-%E9%AD%85%E8%93%9D2%EF%BC%88%E5%8F%B2%E8%AF%97%E5%A4%A7%E6%B4%BB%EF%BC%89/" class="waline-comment-count"> </span> 条评论
-                        </li>
-                    
-                
             </ul>
         </header>
         <div class="kratos-post-content">
+            
             <div id="expire-alert" class="alert alert-warning hidden" role="alert">
-                本文最后编辑于 <time datetime="1656068310814"></time> 前，其中的内容可能需要更新。
+                <div class="icon"><i class="fa fa-warning"></i></div>
+                <div class="text"><p>本文最后编辑于 <time datetime="1656068310814"></time> 前，其中的内容可能需要更新。</p></div>
             </div>
+            
             
                 <div class="kratos-post-inner-toc">
                     <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AF%9D"><span class="toc-number">1.</span> <span class="toc-text">说在前面的话</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AD%A3%E6%96%87"><span class="toc-number">2.</span> <span class="toc-text">正文</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%937"><span class="toc-number">2.1.</span> <span class="toc-text">安卓7</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#dotos"><span class="toc-number">2.1.1.</span> <span class="toc-text">dotos</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%938"><span class="toc-number">2.2.</span> <span class="toc-text">安卓8</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%939"><span class="toc-number">2.3.</span> <span class="toc-text">安卓9</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#crDroid"><span class="toc-number">2.3.1.</span> <span class="toc-text">crDroid</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lineage"><span class="toc-number">2.3.2.</span> <span class="toc-text">Lineage</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RR"><span class="toc-number">2.3.3.</span> <span class="toc-text">RR</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#XeHD"><span class="toc-number">2.3.4.</span> <span class="toc-text">XeHD</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%9310"><span class="toc-number">2.4.</span> <span class="toc-text">安卓10</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Android-GO-Q"><span class="toc-number">2.4.1.</span> <span class="toc-text">Android GO&#x2F;Q</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Havoc"><span class="toc-number">2.4.2.</span> <span class="toc-text">Havoc</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%9311"><span class="toc-number">2.5.</span> <span class="toc-text">安卓11</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Android-R"><span class="toc-number">2.5.1.</span> <span class="toc-text">Android R</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Octavios"><span class="toc-number">2.5.2.</span> <span class="toc-text">Octavios</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E5%B0%BE"><span class="toc-number">3.</span> <span class="toc-text">结尾</span></a></li></ol>
                 </div>
             
             <hr />
-            <h1 id="说在前面的话"><a href="#说在前面的话" class="headerlink" title="说在前面的话"></a>说在前面的话</h1><p>这期算是托更了两个半月憋出来的屎诗巨作，由于时间仓促没法子测肉眼看不到的东西，所以测得并不专业，也并不主观，开心就好，不喜勿喷</p>
+            <div itemprop="articleBody"><h1 id="说在前面的话"><a href="#说在前面的话" class="headerlink" title="说在前面的话"></a>说在前面的话</h1><p>这期算是托更了两个半月憋出来的屎诗巨作，由于时间仓促没法子测肉眼看不到的东西，所以测得并不专业，也并不主观，开心就好，不喜勿喷</p>
 <p>本文章中所有的工具，rec，刷机包均来自Q群1064802293 魅蓝2ROM刷机交流群。特别感谢Time大佬提供的包和汉化的rec。</p>
 <span id="more"></span>
 
@@ -305,11 +305,11 @@
 <p>首先有内置面具，但显然我不需要，界面有很大改动，整体风格我很喜欢有股弄弄的科技风，自带全面屏手势，动画流畅，超多自定义，有人脸解锁，有智能像素省电，有单独阻止某个应用使用传感器，主题息屏自定义电源菜单应有尽有，非常推荐优化折腾后日用，注意：此版本不要随意更新面具，也不要修复，否则会无限重启，最后，再次感谢time大佬提供刷机包和rec。</p>
 <h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>终于这个脱了两个月的坑被我埋了，这次体验下来我感到国内很多安卓系统的摆烂，已经臃肿的软件造成的手机卡顿，一个15年的小手机经过刷机优化，使用改版或者谷歌版软件后手机是不卡的，我也很无语很感慨，希望安卓生态可以越来越好吧。</p>
 <p>今后博客在高中毕业前可能就停更了，我也要为了梦想全力拼搏了！</p>
-
+</div>
         </div>
         
             <div class="kratos-copyright text-center clearfix">
-                <h5>本作品采用 <a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
+                <h5 itemprop="copyrightNotice">本作品采用 <a rel="license nofollow" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议</a> 进行许可</h5>
             </div>
         
         <footer class="kratos-entry-footer clearfix">
@@ -395,7 +395,7 @@
                     <a class="tag-none-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a>
                 </div>
                 <div class="pull-date">
-                <span>最后编辑：2022-06-24</span>
+                    <time datetime="2022-06-24T10:58:30.814Z" itemprop="dateModified">最后编辑：2022-06-24</time>
                 </div>
             </div>
         </footer>
@@ -410,26 +410,6 @@
             
         </nav>
     
-    
-        <div id="w-comments" class="post-comments"></div>
-<script>
-    var load_comm = () => {
-        const init = () => {
-            new Waline(Object.assign({
-                el: '#w-comments',
-                path: '/2022/06/24/%E6%90%9E%E6%9C%BA%E8%AE%B0%E5%BD%954-%E9%AD%85%E8%93%9D2%EF%BC%88%E5%8F%B2%E8%AF%97%E5%A4%A7%E6%B4%BB%EF%BC%89/'
-            }, JSON.parse('{"serverURL":"https://realhoutaspl-rainhoutas.vercel.app","visitor":true}')));
-        }
-        if (typeof Waline === 'undefined') {
-            const src = 'https://unpkg.com/@waline/client/dist/Waline.min.js';
-            $.getScript(src, init);
-        } else {
-            init();
-        }
-    };
-</script>
-<noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://waline.js.org/">comments powered by Waline.</a></noscript>
-
     
 </article>
 
@@ -450,18 +430,37 @@
     <div class="photo-background"></div>
     <div class="photo-wrapper clearfix">
         <div class="photo-wrapper-tip text-center">
-            <img class="about-photo" src="/images/houtas.webp" />
-    <div class="textwidget">
-        <p class="text-center">
-         𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,
-         <br> 
-         ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉.  𝜑
-        </p>
-</div>
+            <img class="about-photo" src="/images/houtas.webp" loading="lazy" decoding="auto" />
         </div>
     </div>
     <div class="textwidget">
-        <p class="text-center"></p>
+        <p class="text-center"> 𝒯𝒽ℯ  𝓅𝒶𝓈𝓉  𝒾𝓈  𝓃ℯ𝓋ℯ𝓇  𝒹ℯ𝒶𝒹,  <br> ℐ𝓉  𝒾𝓈  𝓃ℴ𝓉  ℯ𝓋ℯ𝓇  𝓅𝒶𝓈𝓉. </p>
+    </div>
+    <div class="site-meta">
+        <a class="meta-item" href="/archives/">
+            <span class="title">
+                文章
+            </span>
+            <span class="count">
+                10
+            </span>
+        </a>
+        <a class="meta-item" href="/categories/">
+            <span class="title">
+                分类
+            </span>
+            <span class="count">
+                4
+            </span>
+        </a>
+        <a class="meta-item" href="/tags/">
+            <span class="title">
+                标签
+            </span>
+            <span class="count">
+                3
+            </span>
+        </a>
     </div>
 </aside>
             
@@ -472,7 +471,7 @@
     <h4 class="widget-title no-after">
         <i class="fa fa-compass"></i>
         文章目录
-        <span class="toc-progress-bar"></span>
+        <span class="toc-progress-bar" role="progressbar" aria-label="阅读进度："></span>
     </h4>
     <div class="textwidget">
         <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%AF%B4%E5%9C%A8%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AF%9D"><span class="toc-text">说在前面的话</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AD%A3%E6%96%87"><span class="toc-text">正文</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%937"><span class="toc-text">安卓7</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#dotos"><span class="toc-text">dotos</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%938"><span class="toc-text">安卓8</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%939"><span class="toc-text">安卓9</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#crDroid"><span class="toc-text">crDroid</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Lineage"><span class="toc-text">Lineage</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RR"><span class="toc-text">RR</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#XeHD"><span class="toc-text">XeHD</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%9310"><span class="toc-text">安卓10</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Android-GO-Q"><span class="toc-text">Android GO&#x2F;Q</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Havoc"><span class="toc-text">Havoc</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%8D%9311"><span class="toc-text">安卓11</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Android-R"><span class="toc-text">Android R</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Octavios"><span class="toc-text">Octavios</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E5%B0%BE"><span class="toc-text">结尾</span></a></li></ol>
@@ -616,8 +615,8 @@
 </div>
 </div>
 
-        <script defer src="https://unpkg.com/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
-<script defer src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>
+        <script defer src="/vendors/bootstrap@3.3.4/dist/js/bootstrap.min.js"></script>
+<script defer src="/vendors/nprogress@0.2.0/nprogress.js"></script>
 <script>
     if (!window.kr) {
         window.kr = {};
@@ -628,7 +627,7 @@
 
     <div>
         <canvas id="snow"></canvas>
-        <script async type="text/javascript" src="/js/snow.min.js"></script>
+        <script async src="/js/snow.min.js"></script>
     </div>
 
 
@@ -636,13 +635,13 @@
 
 
 
-    <script defer src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script defer src="/vendors/aplayer@1.10.1/dist/APlayer.min.js"></script>
     
-    <script defer src="https://unpkg.com/meting@2/dist/Meting.min.js"></script>
+    <script defer src="/vendors/meting@2.0.1/dist/Meting.min.js"></script>
     <meting-js
         server="netease"
         type="playlist"
-        id="7241416688"
+        id="7425470183"
         order="random"
         fixed="true"
     >
@@ -650,14 +649,11 @@
 
 
 
-    <script defer src="https://unpkg.com/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script defer src="/vendors/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-<script defer src="https://unpkg.com/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script defer src="/vendors/clipboard@2.0.6/dist/clipboard.min.js"></script>
 <script defer src="/js/kratosr.min.js"></script>
 <script defer src="/js/pjax.min.js"></script>
-
-
-    <script defer src="/js/kr-dark.min.js"></script>
 
 
 
